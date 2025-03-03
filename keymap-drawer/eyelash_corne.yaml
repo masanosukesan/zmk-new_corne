@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
   - E
@@ -28,7 +28,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', s: '"'}
-  - INS
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
@@ -56,12 +56,12 @@ layers:
   - {t: '9', s: (}
   - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '`', s: '~'}
+  - $
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '|'
   - '!'
-  - $
+  - ^
   - +
   - {t: '-', s: _}
   - {t: '4', s: $}
